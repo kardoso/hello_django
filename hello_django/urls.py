@@ -21,5 +21,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('hello/<nome>/', views.hello),
     path('soma/<int:numero1>/<int:numero2>/', views.soma),
-    path('subtracao/<int:numero1>/<int:numero2>/', views.subtracao)
+    path('subtracao/<int:numero1>/<int:numero2>/', views.subtracao),
+    path('multiplicacao/<int:numero1>/<int:numero2>/', views.multiplicacao)
 ]
