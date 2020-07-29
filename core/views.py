@@ -9,3 +9,7 @@ def hello(request, nome):
 
 def soma(request, numero1, numero2):
     return HttpResponse("<h2>Resultado da soma: {}</h2>".format(numero1 + numero2))
+
+
+def subtracao(request, numero1, numero2):
+    return HttpResponse("<h2>Resultado da subtração: {}</h2>".format(numero1 - numero2))
