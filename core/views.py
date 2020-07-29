@@ -17,3 +17,7 @@ def subtracao(request, numero1, numero2):
 
 def multiplicacao(request, numero1, numero2):
     return HttpResponse("<h2>Resultado da multiplicação: {}</h2>".format(numero1 * numero2))
+
+
+def divisao(request, numero1, numero2):
+    return HttpResponse("<h2>Resultado da divisão: {}</h2>".format(numero1 / numero2))
